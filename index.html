@@ -464,18 +464,20 @@
       </ul>
     </div>
     <div class="subscribe-box">
-      <label class="subscribe-label">
-        Subscribe
-      <form name="subscribe">
-        <input class="form-input" type="mail" name="email" placeholder="E-mail">
-      </label> 
+      <p class="subscribe-title">Subscribe</p>
+      <form class="subscribe-form">
+        <label class="form-label" for="user-email">
+        <input class="form-input" type="text" id="user-email" name="email" placeholder="E-mail">
+      </label>
+      <div class="mail-form-btn">
         <button class="subscribe-btn" type="submit">Subscribe 
-          <a href="#" class="subscribe-btn-icon">
+         
             <svg class="subscribe-icon" height="24" width="24">
               <use href="./images/frame.svg"></use>
             </svg>
-          </a>
+      
         </button>
+      </div>
       </form>
 
     </div>
