@@ -764,3 +764,26 @@ padding: 16px 32px;
 width: 169px;
 min-height: 56px;
 }
+.checkbox-input:checked+.privacy-color {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+.privacy-link {
+  color: #4d5ae5;
+}
+.btn-last {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border:none;
+  transition: backgraound-color 250ms ubic-bezier(0.4, 0, 0.2, 1),;
+}
