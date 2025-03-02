@@ -599,18 +599,18 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .modal-btn:focus {
     background-color: #404BBF;
     border: none;
+    fill: #ffffff;
   }
   .modal-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  /*fill*/
+  /*fill
   .modal-close-icon:hover {
     fill: #ffffff;
   }
-   
   .modal-close-icon:focus {
     fill: #ffffff;
-  }
+  }*/
    
   .contact-descr {
   font-weight: 500;
