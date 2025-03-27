@@ -604,13 +604,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .modal-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  /*fill
-  .modal-close-icon:hover {
-    fill: #ffffff;
-  }
-  .modal-close-icon:focus {
-    fill: #ffffff;
-  }*/
+  
    
   .contact-descr {
   font-weight: 500;
@@ -692,9 +686,11 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-
+  cursor: pointer;
+ 
+  
 }
-.privacy-color {
+.custom-checkbox {
 width: 16px;
 height: 16px;
 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -704,7 +700,7 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
-  margin-right: 8px; /* Adds space between checkbox and text */
+margin-right: 8px; /* Adds space between checkbox and text */
 
 }
 
@@ -728,12 +724,13 @@ padding: 16px 32px;
 width: 169px;
 min-height: 56px;
 }
-.checkbox-input:checked+ .label-privacy .privacy-color {
+.checkbox-input:checked+ .label-privacy .custom-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 .privacy-link {
+  text-decoration: underline;
   color: #4d5ae5;
 }
 .btn-last {
